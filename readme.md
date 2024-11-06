@@ -30,9 +30,16 @@ When preparing image datasets for AI training, it's often necessary to have text
 ### Method 1: Using the Batch File (Windows)
 
 1. Place both script files in the directory containing your images
+- or use > git clone https://github.com/MushroomFleet/CaptionRoot
+- while inside your dataset folder.
 2. Double-click `run_caption_root.bat`
+- or type > run_caption_root.bat
+- while in terminal.
 3. Enter your desired caption root phrase when prompted
 4. Wait for completion message
+- check the caption root has been created
+- if correct, delete my .bat, .py and readme.md
+- dataset is ready to be "appended with Vision/auto tagger" (separately)
 
 ### Method 2: Using Python Directly
 
