@@ -1,0 +1,6 @@
+@echo off
+echo Starting Caption Root Creator...
+python caption-root-creator.py
+echo.
+echo Press any key to exit...
+pause >nul
